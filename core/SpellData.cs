@@ -1584,6 +1584,8 @@ namespace EQSpellParser
                     // patch says: This has been updated to ignore damage mitigation factors on the pet.
                     // guessing this ignores spell shield and/or runes?
                     return Spell.FormatCount("Current HP", value) + " (v527, Ignore Mitigation)";
+                case 529:
+                    return String.Format("Stacking: Block any spell in the {0} line", base1);
 
             }
 

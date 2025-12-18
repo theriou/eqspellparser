@@ -37,6 +37,7 @@ namespace EQSpellParser
         NoS,
         LS,
         TOB,
+        SoR,
     }
 
     public enum AAExpansionLong
@@ -73,5 +74,6 @@ namespace EQSpellParser
         Night_of_Shadows,
         Laurions_Song,
         The_Outer_Brood,
+        Shattering_of_Ro,
     }
 }
