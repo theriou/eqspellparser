@@ -1234,11 +1234,21 @@ namespace EQSpellParser
     // it's hard to stick many spells into a single category, but i think this is only used by SPA 403
     public enum SpellCategory
     {
+        Beneficial = 1,
         Cures = 2,
         Offensive_Damage = 3, // nukes, DoT, AA discs, and spells that cast nukes as a side effect
+        Detrimental = 4,
         Heals = 5,
         Lifetap = 6,
+        Summons = 7,
         Transport = 8
+    }
+
+    public enum SpellSubCategory
+    {
+        Ethereal_Nukes = 5,
+        Group_Cures = 8,
+        Mana_Regens = 36
     }
 
     // some common spell reagents 
